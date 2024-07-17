@@ -1,4 +1,4 @@
-# K MEANS CLUSTERING:
+# K MEANS CLUSTERING
  
 The goal of K means clustering is to partition the dataset into some K clusters, where K is given.  A cluster comprises a group of data points whose inter-point distances are small compared with the distances to points outside of the cluster.
 
@@ -17,4 +17,5 @@ Each pixel in an image is a point in a 3-D space comprising the intensities of t
 
 The result of running K-means to convergence, is illustrated by re-drawing the image replacing each pixel vector with the {R,G,B} intensity triplet given by the centre µ<sub>k</sub> to which that pixel has been assigned.  We see that for a given value of K, the algorithm is representing the image using a palette of only K colours.
 
-!(/assets/images/Kmeans.jpg)
+
+![](https://github.com/user-attachments/assets/a8617f8a-a1cb-4e09-8e0f-f674f550a2db)
